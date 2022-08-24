@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  margin-top: 2rem;
+  font-weight: 500;
+}
+
+h3 {
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.recipe-name {
+  background-color: green;
+  border-radius: 5px;
+  padding: 5px;
+  transition: 1s;
+}
+
+.recipe-name:hover {
+  background-color: rgb(190, 210, 227);
+  transition: 1s;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
